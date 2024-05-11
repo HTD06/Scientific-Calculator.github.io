@@ -1,17 +1,44 @@
 <!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
-<head>
+<html>
+ <head>
+ <head>
     <meta charset="UTF-8">
+  <style>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    input[type="text"] {
     <title>Polynomial Calculator</title>
+      width: 100%;
     <link rel="stylesheet" href="styles.css">
+<head>
+  <style>
+    input[type="text"] {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      box-sizing: border-box;
+      border: 2px solid #ccc;
+      border-radius: 4px;
+    }
+
+    output {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      box-sizing: border-box;
+      border: 2px solid #ccc;
+      border-radius: 4px;
+      font-weight: bold;
+    }
+  </style>
 </head>
 <body>
-    <div class="calculator">
-        <textarea id="coefficients" placeholder="Enter polynomial coefficients, separated by spaces"></textarea>
-        <button onclick="solvePolynomial()">Solve</button>
-        <p id="result"></p>
-    </div>
-    <script src="script.js"></script>
+  <h2>Polynomial Calculator</h2>
+  <input type="text" id="coefficients" placeholder="Enter coefficients (separated by spaces)">
+  <button onclick="calculate()">Calculate</button>
+  <output id="result"></output>
+
+  <script src="script.js"></script>
 </body>
 </html>
