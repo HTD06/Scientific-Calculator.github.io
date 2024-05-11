@@ -23,3 +23,7 @@ function solveQuadratic() {
       document.getElementById("result").innerText = `Roots: ${realPart} ± ${imaginaryPart}i`;
   }
 }
+
+function calculate() {
+  // Get the coefficients from the input field
+  const coefficients = document.getElementById("coefficients").value.split(" ").
