@@ -10,7 +10,7 @@ import re
 import sympy.plotting as sym_plot
 
 app = Flask(__name__)
-app.config['STATIC_FOLDER'] = 'static'
+app.config['STATIC_FOLDER'] = '.'
 
 init_printing()
 
