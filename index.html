@@ -1,7 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+	form{
+	width:440px;
+	padding:25px;
+	margin:auto;
+	border:5px solid blue;
+	border-radius:15px 15px;
+	}
+	
+	input{
+	background:azure;
+	color:blue;
+	font-size:15px;
+	padding-top:15px;
+	padding-bottom:15px;
+	padding-left:19px;
+	padding-right:19px;
+	margin:6px;
+	border:1px solid blue;
+	}
+
+	h2{
+	text-align:center;
+	}
+	
+	h2 {
+	color:blue;
+	}
+	
+	.sc{
+	background:#fff;
+	color:#000;
+	}
+</style>
+<script>
+function add_value(input, character) {
+	if(input.value == null || input.value == "0")
+		input.value = character
+	else
+		input.value += character
+}
+
+function cos(form) {
+	form.display.value = Math.cos(form.display.value);
+}
+
+function sin(form) {
+	form.display.value = Math.sin(form.display.value);
+}
+
+function tan(form) {
+	form.display.value = Math.tan(form.display.value);
+}
+
+function sqrt(form) {
+	form.display.value = Math.sqrt(form.display.value);
+}
+
+function ln(form) {
+	form.display.value = Math.log(form.display.value);
+}
+
+function exp(form) {
+	form.display.value = Math.exp(form.display.value);
+}
+
+function deleteChar(input) {
+	input.value = input.value.substring(0, input.value.length - 1)
+}
+
+function changeSign(input) {
+	if(input.value.substring(0, 1) == "-")
+		input.value = input.value.substring(1, input.value.length)
+	else
+		input.value = "-" + input.value
+}
+
+function compute(form) {
+	form.display.value = eval(form.display.value)
+}
+
+function square(form) {
+	form.display.value = eval(form.display.value) * eval(form.display.value)
+}
+
+function checkNum(str) {
+	for (var i = 0; i < str.length; i++) {
+		var ch = str.substring(i, i+1)
+		if (ch < "0" || ch > "9") {
+			if (ch != "/" && ch != "*" && ch != "+" && ch != "-" && ch != "."
+				&& ch != "(" && ch!= ")") {
+				alert("invalid entry!")
+				return false
+				}
+			}
+		}
+		return true
+}
+</script>
+</head>
+<body>
+<br>
+
 <form name="scientific_calculator">
- 
+
 <h2>Scientific Calculator</h2>
- 
+
 <table cellspacing="0" cellpadding="1">
 <tr>
 <td colspan="5" align="center"><input name="display" class="sc" value="0" size="44" maxlength="25"></td>
@@ -47,5 +153,9 @@
 <td align="center"><input type="button" value="   )   " onclick="add_value(this.form.display, ')')"></td>
 </tr>                                 
 </table>
- 
+
 </form>
+
+</body>
+
+</html>
