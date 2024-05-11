@@ -1,46 +1,51 @@
-<div class="calculator">
-        <input type="text" id="screen" maxlength="20">
-        <div class="calc-buttons">
-
-<div class="functions-one">
-    <button class="button triggers">C</button>
-    <button class="button basic-stuff">(</button>
-    <button class="button basic-stuff">)</button>
-    <button class="button numbers">7</button>
-    <button class="button numbers">8</button>
-    <button class="button numbers">9</button>
-    <button class="button numbers">4</button>
-    <button class="button numbers">5</button>
-    <button class="button numbers">6</button>
-    <button class="button numbers">1</button>
-    <button class="button numbers">2</button>
-    <button class="button numbers">3</button>
-    <button class="button basic-stuff">±</button>
-    <button class="button numbers">0</button>
-    <button class="button basic-stuff">.</button>
-</div>
-
-<div class="functions-two">
-    <button class="button triggers"><=</button>
-    <button class="button complex-stuff">%</button>
-    <button class="button complex-stuff">x !</button>
-    <button class="button complex-stuff">x^</button>
-    <button class="button basic-stuff">*</button>
-    <button class="button basic-stuff">/</button>
-    <button class="button complex-stuff">ln</button>
-    <button class="button complex-stuff">e</button>
-    <button class="button basic-stuff">+</button>
-    <button class="button complex-stuff">x ²</button>
-    <button class="button complex-stuff">log</button>
-    <button class="button complex-stuff">cos</button>
-    <button class="button basic-stuff">-</button>
-    <button class="button complex-stuff">√</button>
-    <button class="button complex-stuff">sin</button>
-    <button class="button complex-stuff">tan</button>
-    <button class="button triggers">=</button>
-    <button class="button complex-stuff">π</button>
-    <button class="button complex-stuff">∘</button>
-    <button class="button complex-stuff">rad</button>
-</div>
-      </div>
-</div>
+<form name="scientific_calculator">
+ 
+<h2>Scientific Calculator</h2>
+ 
+<table cellspacing="0" cellpadding="1">
+<tr>
+<td colspan="5" align="center"><input name="display" class="sc" value="0" size="44" maxlength="25"></td>
+</tr>
+<tr>                                  
+<td align="center"><input type="button" value="Clear" onclick="this.form.display.value = 0 "></td>
+<td align="center" colspan="2"><input type="button" value="      Cancel     " onclick="deleteChar(this.form.display)"></td>
+<td align="center" colspan="2"><input type="button" value="           Ok          " NAME="Enter" onclick="if (checkNum(this.form.display.value)) { compute(this.form) }"></td>
+</tr> 
+<tr>
+<td align="center"><input type="button" value=" exp " onclick="if (checkNum(this.form.display.value)) { exp(this.form) }"></td>
+<td align="center"><input type="button" value="  7  " onclick="add_value(this.form.display, '7')"></td>
+<td align="center"><input type="button" value="  8  " onclick="add_value(this.form.display, '8')"></td>
+<td align="center"><input type="button" value="  9  " onclick="add_value(this.form.display, '9')"></td>
+<td align="center"><input type="button" value="   /   " onclick="add_value(this.form.display, '/')"></td>
+</tr>                                  
+<tr>                                   
+<td align="center"><input type="button" value="  ln   " onclick="if (checkNum(this.form.display.value)) { ln(this.form) }"></td>
+<td align="center"><input type="button" value="  4  " onclick="add_value(this.form.display, '4')"></td>
+<td align="center"><input type="button" value="  5  " onclick="add_value(this.form.display, '5')"></td>
+<td align="center"><input type="button" value="  6  " onclick="add_value(this.form.display, '6')"></td>
+<td align="center"><input type="button" value="   *   " onclick="add_value(this.form.display, '*')"></td>
+</tr>                                   
+<tr>                                    
+<td align="center"><input type="button" value=" sqrt " onclick="if (checkNum(this.form.display.value)) { sqrt(this.form) }"></td>
+<td align="center"><input type="button" value="  1  " onclick="add_value(this.form.display, '1')"></td>
+<td align="center"><input type="button" value="  2  " onclick="add_value(this.form.display, '2')"></td>
+<td align="center"><input type="button" value="  3  " onclick="add_value(this.form.display, '3')"></td>
+<td align="center"><input type="button" value="   -   " onclick="add_value(this.form.display, '-')"></td>
+</tr>                                  
+<tr>                                   
+<td align="center"><input type="button" value="  sq  " onclick="if (checkNum(this.form.display.value)) { square(this.form) }"></td>
+<td align="center"><input type="button" value="  0  " onclick="add_value(this.form.display, '0')"></td>
+<td align="center"><input type="button" value="   .  " onclick="add_value(this.form.display, '.')"></td>
+<td align="center"><input type="button" value=" +/- " onclick="changeSign(this.form.display)"></td>
+<td align="center"><input type="button" value="   +  " onclick="add_value(this.form.display, '+')"></td>
+</tr>                                  
+<tr>                                   
+<td align="center"><input type="button" value="   (    " onclick="add_value(this.form.display, '(')"></td>
+<td align="center"><input type="button" value="cos" onclick="if (checkNum(this.form.display.value)) { cos(this.form) }"></td>
+<td align="center"><input type="button" value=" sin " onclick="if (checkNum(this.form.display.value)) { sin(this.form) }"></td>
+<td align="center"><input type="button" value=" tan" onclick="if (checkNum(this.form.display.value)) { tan(this.form) }"></td>
+<td align="center"><input type="button" value="   )   " onclick="add_value(this.form.display, ')')"></td>
+</tr>                                 
+</table>
+ 
+</form>
