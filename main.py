@@ -73,10 +73,9 @@ def format_output(equation):
     equation_str = re.sub(r'(\d+)\s+(\d+)i', r'\1+\2i', equation_str)
     return equation_str
 
-@app.route('/', methods=['GET'])
+@app.route('/')
 def index():
-    result = ""
-    return render_template('index.html', result=result)
+    return render_template('index.html')
 
 def iflfactor(eq):
     e = Mul(*[horner(e) if e.is_Add else e for e in
