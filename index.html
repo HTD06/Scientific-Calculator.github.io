@@ -1,0 +1,1664 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head
+    ><title>La calculatrice ultime</title>
+    <link rel="icon" type="calc-icon" href="https://purepng.com/public/uploads/thumbnail//purepng.com-calculatorcalculatorportable-electroniccalculationselectronicssmall-deviceelectronic-calculator-1701528344242wvmhd.png">
+    <meta property="og:title" content="La calculatrice ultime" /><meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    /><meta charset="utf-8" /><meta
+      property="twitter:card"
+      content="summary_large_image"
+    /><style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }</style
+    >
+    <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      jax: ["input/TeX", "output/HTML-CSS"],
+      extensions: ["tex2jax.js"],
+      "HTML-CSS": { preferredFont: "TeX", availableFonts: ["STIX","TeX"] },
+      tex2jax: { inlineMath: [ ["$", "$"], ["\\(","\\)"] ], displayMath: [ ["$$","$$"], ["\\[", "\\]"] ], processEscapes: true, ignoreClass: "tex2jax_ignore|dno" },
+      TeX: { noUndefined: { attributes: { mathcolor: "red", mathbackground: "#FFEEEE", mathsize: "90%" } } },
+      messageStyle: "none"
+    });
+    </script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/dist/lodash.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/numeric/1.2.6/numeric.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/fraction@1.0.0/dist/fraction.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/complex@1.0.0/dist/complex.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/polynomial@1.0.0/dist/polynomial.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/9.4.4/math.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/numericjs/1.2.6/numeric.min.js"></script>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-gray-black);
+        background-color: var(--dl-color-gray-white);
+
+      }
+    
+    
+    </style>
+    
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body
+    ><link rel="stylesheet" href="style.css" /> 
+    <div class="home-container">
+      <div class="home-hero heroContainer">
+        <div class="home-container03"
+          ><span class="home-hero-sub-heading bodyLarge"
+            ><span
+              ><span
+                ><span>Résolvez facilement des équations polynomiales</span
+                ><span> </span></span
+              ><span><span> </span><span> </span></span></span
+            ><span
+              ><span><span> </span><span> </span></span
+              ><span><span> </span><span> </span></span></span></span
+          ><h1 class="home-hero-heading heading1"
+            >Calculatrice polynomiale avancée</h1
+          ><div class="home-btn-group"></div></div></div>
+      <div class="home-features"
+          ><div class="featuresContainer"
+            ><div class="home-features1"
+              ><div class="home-container044"
+                ><span class="overline"><span>Outil</span><br /></span
+                ><h2 class="home-features-heading heading2">Entrez votre équation polynomiale</h2>  
+                <span class="home-features-sub-heading bodyLarge"
+                  ><span>Explorez les puissantes fonctionnalités de notre calculatrice avancée pour résoudre des équations polynomiales. <br> Entrez une équation polynomiale simple ci-dessous et cliquez sur un bouton.</span>
+                </span>
+                
+              </div>
+                  
+                
+                <h2 class="home-features-heading heading2">
+                  <div class="home-container044">
+                    <br>
+                    <div class="input-image-container">
+                      <input type="text" id="equation" name="equation" class="home-textinput13 input" required="true" placeholder="Entrez votre équation">
+
+                      <div class="home-container088">
+                        <input type="text" id="var" name="var" placeholder="1" class="home-textinput135 input"> 
+                      </div>
+                
+                    </div>
+                    <!-- <div class="symbol-container">
+                      <button type="button" onclick="ajouteSymbole('sin')" class="button">sin</button>
+                      <button type="button" onclick="ajouteSymbole('cos')" class="button">cos</button>
+                      <button type="button" onclick="ajouteSymbole('tan')" class="button">tan</button>
+                      <button type="button" onclick="ajouteSymbole('√')" class="button">√</button>
+                      <button type="button" onclick="ajouteSymbole('∛')" class="button">∛</button>
+                      <button type="button" onclick="ajouteSymbole('∜')" class="button">∜</button>
+                      <button type="button" onclick="ajouteSymbole('^')" class="button">^</button>
+                      <button type="button" onclick="ajouteSymbole('(')" class="button">(</button>
+                      
+                    </div>
+
+                    NE PEUVENT PAS ETRE UTILISE
+
+                    <div class="symbol-container">
+                      <button type="button" onclick="ajouteSymbole(')')" class="button">)</button>
+                      <button type="button" onclick="ajouteSymbole('±')" class="button">±</button>
+                      <button type="button" onclick="ajouteSymbole('∞')" class="button">∞</button>
+                      <button type="button" onclick="ajouteSymbole('∫')" class="button">∫</button>
+                      <button type="button" onclick="ajouteSymbole('∠')" class="button">∠</button>
+                      <button type="button" onclick="ajouteSymbole('°')" class="button">°</button>
+                      <button type="button" onclick="ajouteSymbole('′')" class="button">′</button>
+                      <button type="button" onclick="ajouteSymbole('″')" class="button">″</button>
+                    </div> -->
+
+                    <div class="operator-container">
+                      <button type="button" onclick="ajouteOperateur('+')" class="button2">+</button>
+                      <button type="button" onclick="ajouteOperateur('-')" class="button2">-</button>
+                      <button type="button" onclick="ajouteSymbole('*')" class="button2">×</button>
+                      <button type="button" onclick="ajouteOperateur('/')" class="button2">÷</button>
+                      <button type="button" onclick="ajouteOperateur('=')" class="button2">=</button>
+                    </div>
+                  </div>
+                  <script>
+                    function ajouteSymbole(symbol) {
+                      document.getElementById("equation").value += symbol;
+                    }
+                    
+                    function ajouteOperateur(operator) {
+                      document.getElementById("equation").value += operator;
+                    }
+                    
+                    const equationInput = document.getElementById('equation');
+                    const mathjaxOutput = document.getElementById('mathjax-output');
+
+                    equationInput.addEventListener('input', () => {
+                      const userInput = equationInput.value;
+                      const mathjaxString = `\\(` + userInput + `\\)`;
+                      const div = document.createElement('div');
+                      div.innerHTML = mathjaxString;
+              
+                      const label = document.getElementById('jaxmath');
+                      while (label.firstChild) {
+                        label.removeChild(label.firstChild);
+                      }
+                      label.appendChild(div);
+                      MathJax.Hub.Queue(["Typeset", MathJax.Hub, div]);
+                    });
+                  </script>
+              
+            
+              </h2>
+              
+                <div class="home-container-wrapper">
+                  <div id="Evaluer">
+                    <div class="home-container05"
+                      ><button onclick="evalue()" type="button" name="button" value="Evalue une fonction" id="evalue_function" class="featuresCard feature-card-feature-card">
+                        <img src="https://cdn-icons-png.flaticon.com/512/65/65468.png" viewBox="0 0 1024 1024" class="featuresIcon invert-colors">
+                        <div class="feature-card-container">
+                          <h3 class="feature-card-text heading3">
+                            <span>Evalue</span>
+                          </h3>
+                          <span class="feature-card-text bodySmall">
+                            <span>Entrez un équation et un x et on va le resoudre</span>
+                          </span>
+                        </div>
+                      </button>
+                    </div>
+                    <script>
+                      function evalue() {
+                        const equation = obtenirEquation();
+                        const x = document.getElementById("var").value || 1;
+                        let evaluated = evaluerPasAPas(equation, x);
+                        afficheResultat(evaluated, x);
+                      }
+
+                      function obtenirEquation() {
+                        let equation = document.getElementById("equation").value.replace(/[a-zA-Z]/g, 'x');
+                        return String(equation)
+                      }
+
+                      function evaluerPasAPas(equation, x) {
+                        x = String(x);
+                        equation = equation.replace(/(?<![\d.])x/g, `(${x})`);
+                        let couplees = equation.match(/(\d+(?:\.\d+)?)x/g);
+                        if (couplees) {
+                            couplees.forEach(couple => {
+                                equation = equation.replace(couple, `${couple.replace('x', '')}*(${x})`);
+                            });
+                        }
+
+                        equation = equation.replace(/(\(?-?\d+(\.\d+)?\)?)\^(-?\d+(\.\d+)?)/g, (couple, base, _, exposant) => {
+                            let evaluated = Math.pow(eval(base), eval(exposant));
+                            return evaluated;
+                        });
+
+                        equation = equation.replace(/\(?([+-]?\d+(\.\d+)?|\(?[+-]?\d+(\.\d+)?\)?)\)?\*\(?([+-]?\d+(\.\d+)?|[+-]?\d+(\.\d+)?)\)?/g, (couple, p1, p2, p3, p4) => {
+                            let evaluated = String(eval(`${eval(p1)}*${eval(p4)}`)).replace(/(?<![+\-\d.^])\d+(?:\.\d+)?/g, (couple, p1) => {
+                              return `+${couple}`;
+                            });
+                            return evaluated;
+                        });
+
+                        let resultat;
+                        try {
+                            resultat = eval(equation);
+                        } catch (e) {
+                            console.error('Error evaluating equation:', e);
+                            return null;
+                        }
+                        return resultat;
+                      }
+
+
+
+                      function afficheResultat(aAfficher, variable) {
+                        const solution = [`${aAfficher}`];
+                        const strResultat = solution.map(s => `\\(f(${variable}) = ${s}\\)`).join('<br>'); 
+                        const div = document.createElement('div');
+                        div.innerHTML = strResultat;
+                        const label = document.getElementById('etiquette-resultat');
+                        while (label.firstChild) {
+                          label.removeChild(label.firstChild);
+                        }
+                        label.appendChild(div);
+                        MathJax.Hub.Queue(["Typeset", MathJax.Hub, div]);
+                      }
+                    
+                      
+                    </script>
+                  </div>
+                  <div id="Quadratique">
+                    <div class="home-container05"
+                      ><button onclick="calculeFormuleQuadratique()" type="button" name="button" value="Utilise la formule quadratique" id="resoudre_quadratique" class="featuresCard feature-card-feature-card"
+                        ><img src="https://cdn-icons-png.flaticon.com/512/65/65468.png" viewBox="0 0 1024 1024" class="featuresIcon invert-colors">
+                        <div class="feature-card-container"
+                          ><h3 class="feature-card-text heading3"
+                            ><span>Formule quadratique</span></h3
+                          ><span class="feature-card-text bodySmall"
+                            ><span
+                              >Résolvez rapidement des équations quadratiques à l'aide de la formule quadratique</span
+                            ></span>
+                        </div>
+                    </div>
+                    <script>
+                      function calculeFormuleQuadratique() {
+                        const equation = obtenirEquation();
+                        try {
+                          const pieces = equation.split(/([+-])/);
+                          let coefficients = {0: 0, 1: 0, 2: 0}; 
+                          const correspondancesDegree = equation.match(/([a-zA-Z])(\^(\d+))?\b/g);
+                          let degreeMaximale = 0;
+                          for (let i = 0; i < correspondancesDegree.length; i++) {
+                            const couple = correspondancesDegree[i];
+                            const exposant = parseInt(couple[3] || 1);
+                            if (exposant > degreeMaximale) {
+                              degreeMaximale = exposant;
+                            }
+                          }
+                          let temp = "";
+                          for (let i = 0; i < pieces.length; i++) {
+                            const parti = pieces[i];
+                            if (parti.includes('x')) {
+                              const correspondancesExpo = parti.match(/\^(\d+)/);
+                              let coefficient = parti.replace('x', '');
+                              let exposant = 1;
+                              if (correspondancesExpo) {
+                                exposant = parseInt(correspondancesExpo[1]);
+                                coefficient = coefficient.replace(correspondancesExpo[0], '');
+                              }
+                              if (i > 0 && pieces[i - 1] === '-') {
+                                coefficient = '-' + coefficient;
+                              }
+                              if (coefficient === '') {
+                                coefficient = 1;
+                              } else if (coefficient === '-') {
+                                coefficient = -1;
+                              } else if (coefficient === '+') {
+                                coefficient = 1;
+                              } else if (coefficient.startsWith('-')) {
+                                coefficient = parseFloat(coefficient);
+                              } else {
+                                coefficient = parseFloat(coefficient);
+                              }
+                              temp = `parti: ${parti}, Coefficient: ${coefficient}, exposant: ${exposant}`
+                              coefficients[exposant] = coefficient;
+                              if (exposant > degreeMaximale) {
+                                degreeMaximale = exposant
+                              }
+                            } else {
+                              let constant = '';
+                              if (i > 0 && pieces[i - 1] === '-') {
+                                constant = '-' + parti;
+                              } else if (i > 0 && pieces[i - 1] === '+') {
+                                constant = parti;
+                              } else {
+                                constant = parti;
+                              }
+                              let coefficient = parseFloat(constant);
+                              if (isNaN(coefficient)) {
+                                coefficient = 0;
+                              }
+                              coefficients[0] = coefficient;
+                            }
+                          }
+                          if (degreeMaximale === 2) {
+                            let a = coefficients[2] || 0;
+                            let b = coefficients[1] || 0;
+                            let c = coefficients[0] || 0;
+                            const discriminant = b ** 2 - 4 * a * c;
+                            if (discriminant > 0) {
+                              const root1 = (-b + Math.sqrt(discriminant)) / (2 * a);
+                              const root2 = (-b - Math.sqrt(discriminant)) / (2 * a);
+                              let sulotion = [`${root1.toFixed(2)}`, `${root2.toFixed(2)}`]
+                              const strResultat = sulotion.map(s => `\\(x=${s}\\)`).join('<br>'); 
+
+                              const div = document.createElement('div');
+                              div.innerHTML = strResultat;
+
+                              const label = document.getElementById('etiquette-resultat');
+                              while (label.firstChild) {
+                                label.removeChild(label.firstChild);
+                              }
+                              label.appendChild(div);
+                              MathJax.Hub.Queue(["Typeset", MathJax.Hub, div]);
+                            } else if (discriminant === 0) {
+                              const root = -b / (2 * a);
+                              let sulotion = [`${root.toFixed(2)}`]
+                              const strResultat = sulotion.map(s => `\\(x=${s}\\)`).join('<br>'); 
+
+                              const div = document.createElement('div');
+                              div.innerHTML = strResultat;
+
+                              const label = document.getElementById('etiquette-resultat');
+                              while (label.firstChild) {
+                                label.removeChild(label.firstChild);
+                              }
+                              label.appendChild(div);
+                              MathJax.Hub.Queue(["Typeset", MathJax.Hub, div]);
+                            } else {
+                              const partiimaginaire = Math.sqrt(-discriminant) / (2 * a);
+                              const vraiparti = -b / (2 * a);
+                              
+                              let sulotion = [`${vraiparti.toFixed(2)} + ${partiimaginaire.toFixed(2)}i`, `${vraiparti.toFixed(2)} - ${partiimaginaire.toFixed(2)}i`]
+                              const strResultat = sulotion.map(s => `\\(x=${s}\\)`).join('<br>'); 
+
+                              const div = document.createElement('div');
+                              div.innerHTML = strResultat;
+
+                              const label = document.getElementById('etiquette-resultat');
+                              while (label.firstChild) {
+                                label.removeChild(label.firstChild);
+                              }
+                              label.appendChild(div);
+                              MathJax.Hub.Queue(["Typeset", MathJax.Hub, div]);
+                                }
+                              } else {
+                                document.getElementById("etiquette-resultat").textContent = `L'équation n'est pas quadratique, degree ${degreeMaximale}`;
+                              }
+                            } catch (error) {
+                              document.getElementById("etiquette-resultat").textContent = "Équation invalide";
+                        }
+                      }
+                    </script>
+                  </div>
+                  <div id="Isolate">
+                    <div class="home-container05"
+                      ><button onclick="isolePourX()" type="button" name="button" value="resoudre pour x [x]" id="resoudre_isolation" class="featuresCard feature-card-feature-card">
+                        <img src="https://cdn-icons-png.flaticon.com/512/65/65468.png" viewBox="0 0 1024 1024" class="featuresIcon invert-colors">
+                        <div class="feature-card-container"
+                          ><h3 class="feature-card-text heading3"
+                            ><span>Isolement</span></h3
+                          ><span class="feature-card-text bodySmall"
+                            ><span
+                              >Isoler les variables dans les équations pour résoudre des valeurs spécifiques</span
+                            ></span>
+                          </span>
+                        </div>
+                      </button>
+                    </div>
+                    <script>
+                      function isolePourX() {
+                        const equation = obtenirEquation();
+                        try {
+                          const pieces = equation.split(/([+-])/);
+                          let coefficients = {0: 0, 1: 0, 2: 0, 3: 0};
+                          const correspondancesDegree = equation.match(/([a-zA-Z])(\^(\d+))?\b/g);
+                          let degreeMaximale = 0;
+                          for (let i = 0; i < correspondancesDegree.length; i++) {
+                            const couple = correspondancesDegree[i];
+                            const exposant = parseInt(couple[3] || 1);
+                            if (exposant > degreeMaximale) {
+                              degreeMaximale = exposant;
+                            }
+                          }
+                          let temp = "";
+                          for (let i = 0; i < pieces.length; i++) {
+                            const parti = pieces[i];
+                            if (parti.includes('x')) {
+                              const correspondancesExpo = parti.match(/\^(\d+)/);
+                              let coefficient = parti.replace('x', '');
+                              let exposant = 1;
+                              if (correspondancesExpo) {
+                                exposant = parseInt(correspondancesExpo[1]);
+                                coefficient = coefficient.replace(correspondancesExpo[0], '');
+                              }
+                              if (i > 0 && pieces[i - 1] === '-') {
+                                coefficient = '-' + coefficient;
+                              }
+                              if (coefficient === '') {
+                                coefficient = 1;
+                              } else if (coefficient === '-') {
+                                coefficient = -1;
+                              } else if (coefficient === '+') {
+                                coefficient = 1;
+                              } else if (coefficient.startsWith('-')) {
+                                coefficient = parseFloat(coefficient);
+                              } else {
+                                coefficient = parseFloat(coefficient);
+                              }
+                              temp = `parti: ${parti}, Coefficient: ${coefficient}, exposant: ${exposant}`
+                              coefficients[exposant] = coefficient;
+                              if (exposant > degreeMaximale) {
+                                degreeMaximale = exposant
+                              }
+                            } else {
+                              let constant = '';
+                              if (i > 0 && pieces[i - 1] === '-') {
+                                constant = '-' + parti;
+                              } else if (i > 0 && pieces[i - 1] === '+') {
+                                constant = parti;
+                              } else {
+                                constant = parti;
+                              }
+                              let coefficient = parseFloat(constant);
+                              if (isNaN(coefficient)) {
+                                coefficient = 0;
+                              };
+                              coefficients[0] = coefficient;
+                            }
+                          }
+                          let solutions;
+                          if (degreeMaximale === 1) {
+                            solutions = [-coefficients[0] / coefficients[1]];
+                          } else if (degreeMaximale === 2) {
+                            const a = coefficients[2];
+                            const b = coefficients[1];
+                            const c = coefficients[0];
+                            const discriminant = b * b - 4 * a * c;
+                            if (discriminant >= 0) {
+                              solutions = [(-b + Math.sqrt(discriminant)) / (2 * a), (-b - Math.sqrt(discriminant)) / (2 * a)];
+                            } else {
+                              const partiimaginaire = Math.sqrt(-discriminant) / (2 * a);
+                              const vraiparti = -b / (2 * a);
+                              solutions = [new Complexe(vraiparti, partiimaginaire), new Complexe(vraiparti, -partiimaginaire)];
+                            }
+                          } else if (degreeMaximale === 3) {
+                            const a = coefficients[3] || 0;
+                            const b = coefficients[2] || 0;
+                            const c = coefficients[1] || 0;
+                            const d = coefficients[0] || 0;
+                            const p = (3 * a * c - b * b) / (3 * a * a);
+                            const q = (2 * b * b * b - 9 * a * b * c + 27 * a * a * d) / (27 * a * a * a);
+                            const discriminant = (q / 2) * (q / 2) + (p / 3) * (p / 3) * (p / 3);
+                            if (discriminant > 0) {
+                              const u = Math.cbrt(-q / 2 + Math.sqrt(discriminant));
+                              const v = -Math.cbrt(-q / 2 - Math.sqrt(discriminant));
+                              solutions = [new Complexe(u + v, 0), new Complexe(-(u + v) / 2, Math.sqrt(3) / 2 * (u - v)), new Complexe(-(u + v) / 2, -Math.sqrt(3) / 2 * (u - v))];
+                            } else if (discriminant === 0) {
+                              const u = Math.cbrt(-q / 2);
+                              solutions = [new Complexe(3 * u - b / (3 * a), 0)];
+                            } else {
+                              const r = Math.sqrt(-(p / 3));
+                              const phi = Math.acos(-q / (2 * r * r * r));
+                              solutions = [new Complexe(2 * r * Math.cos(phi / 3) - b / (3 * a), 0), new Complexe(2 * r * Math.cos((phi + 2 * Math.PI) / 3) - b / (3 * a), Math.sqrt(3) * r * Math.sin((phi + 2 * Math.PI) / 3)), new Complexe(2 * r * Math.cos((phi + 4 * Math.PI) / 3) - b / (3 * a), Math.sqrt(3) * r * Math.sin((phi + 4 * Math.PI) / 3))];
+                            }
+                          } else {
+                            solutions = ["Ne peut pas resoudre un polynome de degree " + degreeMaximale];
+                          }
+                          const strResultat = solutions.map(s => `\\(x = ${s}\\)`).join('<br>'); 
+
+                          const div = document.createElement('div');
+                          div.innerHTML = strResultat;
+
+                          const label = document.getElementById('etiquette-resultat');
+                          while (label.firstChild) {
+                            label.removeChild(label.firstChild);
+                          }
+                          label.appendChild(div);
+                          MathJax.Hub.Queue(["Typeset", MathJax.Hub, div]);
+                          } catch (error) {
+                            document.getElementById("etiquette-resultat").textContent = `Équation invalide`;
+                          }
+
+                          
+                      }
+
+                      class Complexe {
+                        constructor(real, imaginary) {
+                          this.real = real;
+                          this.imaginary = imaginary;
+                        }
+
+                        add(other) {
+                          return new Complexe(this.real + other.real, this.imaginary + other.imaginary);
+                        }
+
+                        subtract(other) {
+                          return new Complexe(this.real - other.real, this.imaginary - other.imaginary);
+                        }
+
+                        multiply(other) {
+                          return new Complexe(this.real * other.real - this.imaginary * other.imaginary, this.real * other.imaginary + this.imaginary * other.real);
+                        }
+
+                        toString() {
+                          if (this.imaginary === 0) {
+                            return `(${this.real}, 0)`;
+                          } else if (this.real === 0) {
+                            return `(${this.imaginary}, 0)`;
+                          } else {
+                            return `(${this.real} + ${this.imaginary}i, 0)`;
+                          }
+                        }
+                      }
+                    </script>
+                  </div>
+                  <div id="Factorize">                                                                           
+                    <div class="home-container05"
+                      ><button onclick="factorise()" type="button" name="button" value="Solve using Factorization" id="solve_factorization" class="featuresCard feature-card-feature-card"
+                        ><img src="https://cdn-icons-png.flaticon.com/512/65/65468.png" viewBox="0 0 1024 1024" class="featuresIcon invert-colors">
+                        <div class="feature-card-container"
+                          ><h3 class="feature-card-text heading3"
+                            ><span>Factoriser</span></h3
+                          ><span class="feature-card-text bodySmall"
+                            ><span
+                              >Factoriser des polynômes pour simplifier des ex  pressions complexes</span
+                            ></span>
+                          </div>
+                      </div>
+                    <script>
+                      function factorise() {
+                        const equation = obtenirEquation();
+                        const pieces = equation.split(/([+-])/);
+                        let coefficients = {0: 0, 1: 0, 2: 0, 3: 0}; 
+                        const correspondancesDegree = equation.match(/([a-zA-Z])(\^(\d+))?\b/g);
+                        let degreeMaximale = 0;
+                        for (let i = 0; i < correspondancesDegree.length; i++) {
+                          const couple = correspondancesDegree[i];
+                          const exposant = parseInt(couple[3] || 1);
+                          if (exposant > degreeMaximale) {
+                            degreeMaximale = exposant;
+                          }
+                        }
+                        let temp = "";
+                        for (let i = 0; i < pieces.length; i++) {
+                          const parti = pieces[i];
+                          if (parti.includes('x')) {
+                            const correspondancesExpo = parti.match(/\^(\d+)/);
+                            let coefficient = parti.replace('x', '');
+                            let exposant = 1;
+                            if (correspondancesExpo) {
+                              exposant = parseInt(correspondancesExpo[1]);
+                              coefficient = coefficient.replace(correspondancesExpo[0], '');
+                            }
+                            if (i > 0 && pieces[i - 1] === '-') {
+                              coefficient = '-' + coefficient;
+                            }
+                            if (coefficient === '') {
+                              coefficient = 1;
+                            } else if (coefficient === '-') {
+                              coefficient = -1;
+                            } else if (coefficient === '+') {
+                              coefficient = 1;
+                            } else if (coefficient.startsWith('-')) {
+                              coefficient = parseFloat(coefficient);
+                            } else {
+                              coefficient = parseFloat(coefficient);
+                            }
+                            temp = `parti: ${parti}, Coefficient: ${coefficient}, exposant: ${exposant}`
+                            coefficients[exposant] = coefficient;
+                            if (exposant > degreeMaximale) {
+                              degreeMaximale = exposant
+                            }
+                          } else {
+                            let constant = '';
+                            if (i > 0 && pieces[i - 1] === '-') {
+                              constant = '-' + parti;
+                            } else if (i > 0 && pieces[i - 1] === '+') {
+                              constant = parti;
+                            } else {
+                              constant = parti;
+                            }
+                            let coefficient = parseFloat(constant);
+                            if (isNaN(coefficient)) {
+                              coefficient = 0;
+                            }
+                            coefficients[0] = coefficient;
+                          }
+                        }
+                        let solutions;
+                        let a = 0, b = 0, c = 0;
+
+                        if (degreeMaximale === 1) {
+                          a = coefficients[1] || 0;
+                          b = coefficients[0] || 0;
+                        } else if (degreeMaximale === 2) {
+                          a = coefficients[2] || 0;
+                          b = coefficients[1] || 0;
+                          c = coefficients[0] || 0;
+                        }
+
+                        var disc = (b*b-4*a*c);	
+                        if (disc!=0) {
+                          disc = disc/Math.abs(disc);
+                        }
+
+                        let gcd = gcdDe(a, b, c);
+
+                        a /= gcd;
+                        b /= gcd;
+                        c /= gcd;
+
+                        switch (disc) {
+                          case -1:
+                            document.getElementById("etiquette-resultat").textContent = 'Les racines de cette fonction ne sont pas réelles.  Veuillez entrer une autre fonction';
+                            return;
+                            break;
+                          case 1:
+                            if (Math.sqrt((b*b-4*a*c))==Math.round(Math.sqrt((b*b-4*a*c)))) {
+                              let factor1 = (b + Math.sqrt(b*b-4*a*c)) / (2*a);
+                              let factor2 = (b - Math.sqrt(b*b-4*a*c)) / (2*a);
+                              let sulotion = [`${gcd}(x${factor1 > 0 ? ' + ' : ' - '}${Math.abs(factor1)})(x${factor2 > 0 ? ' + ' : ' - '}${Math.abs(factor2)})`.replace("1(", "(")]
+                              const strResultat = sulotion.map(s => `\\(x=${s}\\)`).join('<br>'); 
+
+                              const div = document.createElement('div');
+                              div.innerHTML = strResultat;
+
+                              const label = document.getElementById('etiquette-resultat');
+                              while (label.firstChild) {
+                                label.removeChild(label.firstChild);
+                              }
+                              label.appendChild(div);
+                              MathJax.Hub.Queue(["Typeset", MathJax.Hub, div]);	
+                            } else {
+                              document.getElementById("etiquette-resultat").textContent =  'Les racines de cette fonction ne sont pas rationnelles et donc cette fonction ne prend pas en compte';
+                            }
+                            break;
+                          case 0:
+                            if ((b/a)<0) {
+                              let sulotion = [`(x + ${-b/(2*a)})(x + ${-b/(2*a)})`]
+                              let strResultat = "Cette équation ne peut pas etre factorisé.";
+                              if (sulotion.join("").includes("NaN") || sulotion.join("").includes("NaN")  || sulotion.join("") == null) {
+                                strResultat = "Cette équation ne peut pas etre factorisé."
+                              } else {
+                                strResultat = sulotion.map(s => `\\(x=${s}\\)`).join('<br>'); 
+                              }
+                              const div = document.createElement('div');
+                              div.innerHTML = strResultat;
+
+                              const label = document.getElementById('etiquette-resultat');
+                              while (label.firstChild) {
+                                label.removeChild(label.firstChild);
+                              }
+                              label.appendChild(div);
+                              MathJax.Hub.Queue(["Typeset", MathJax.Hub, div]);
+                            } else {
+                              
+                              let sulotion = [`(x - ${b/(2*a)})(x - ${b/(2*a)})`]
+                              let strResultat = "";
+                              console.log(sulotion.join(""), sulotion.join("").includes("NaN"), sulotion.join("").includes("undefined"))
+                              if (sulotion.join("Cette équation ne peut pas etre factorisé.").includes("NaN") == true || sulotion.join("").includes("NaN") == true || sulotion.join("") == null) {
+                                strResultat = "Cette équation ne peut pas etre factorisé.";
+                              } else {
+                                strResultat = sulotion.map(s => `\\(x=${s}\\)`).join('<br>'); 
+                              }
+                              console.log(strResultat);
+                              const div = document.createElement('div');
+                              div.innerHTML = strResultat;
+
+                              const label = document.getElementById('etiquette-resultat');
+                              while (label.firstChild) {
+                                label.removeChild(label.firstChild);
+                              }
+                              label.appendChild(div);
+                              MathJax.Hub.Queue(["Typeset", MathJax.Hub, div]);
+                            }
+                            break;
+                          default:
+                            document.getElementById("etiquette-resultat").textContent = 'Il y a un problème avec votre syntaxe';
+                            return
+                        }
+                      }
+
+                      function gcdDe(a, b, c) {
+                        let gcd = a;
+                        for (let i = 2; i <= Math.min(a, b, c); i++) {
+                          if (a % i === 0 && b % i === 0 && c % i === 0) {
+                            gcd = i;
+                          }
+                        }
+                        return gcd;
+                      }
+                      function _removeSpaces(v){
+                        while( v.indexOf(" ") > -1 ) v = v.substring( 0, v.indexOf(" ") ) + v.substring( v.indexOf(" ")+1 );
+                        return v;
+                      }
+                    </script>
+                  </div>
+                  <div id="Simplify">
+                    <div class="home-container05"
+                      ><button onclick="simplify()" type="button" name="button" value="Simplify" id="simplify" class="featuresCard feature-card-feature-card"
+                        ><img src="https://cdn-icons-png.flaticon.com/512/65/65468.png" viewBox="0 0 1024 1024" class="featuresIcon invert-colors">
+                        <div class="feature-card-container"
+                          ><h3 class="feature-card-text heading3"
+                            ><span>Simplifier</span></h3
+                          ><span class="feature-card-text bodySmall"
+                            ><span
+                              >Simplifier les équations pour les rendre plus faciles à utiliser</span
+                            ></span
+                          ></div>
+                      </button>
+                    </div>
+                    <script>
+                      function simplify() {
+                        const equation = obtenirEquation();
+                        const pieces = equation.split(/([+-])/);
+                        let coefficients = {}; 
+                        const correspondancesDegree = equation.match(/([a-zA-Z])(\^(\d+))?\b/g);
+                        let degreeMaximale = 0;
+                        for (let i = 0; i < correspondancesDegree.length; i++) {
+                          const couple = correspondancesDegree[i];
+                          const exposant = parseInt(couple[3] || 1);
+                          if (exposant > degreeMaximale) {
+                            degreeMaximale = exposant;
+                          }
+                        }
+                        for (let i = 0; i < pieces.length; i += 2) {
+                          const parti = pieces[i];
+                          if (parti === '+' || parti === '-') continue;
+                          let coefficient = parseFloat(parti);
+                          let signe = 1;
+                          if (pieces[i - 1] === '-') {
+                            signe = -1;
+                          }
+                          let exposant = 0;
+                          const correspondancesExpo = parti.match(/\^(\d+)/);
+                          if (correspondancesExpo) {
+                            exposant = parseInt(correspondancesExpo[1]);
+                            coefficient = parseFloat(parti.replace(correspondancesExpo[0], ''));
+                            if (isNaN(coefficient) || coefficient === "NaN") {
+                              coefficient = 1; 
+                            }
+                          } else if (parti.includes('x')) {
+                            exposant = 1;
+                            coefficient = parseFloat(parti.replace('x', ''));
+                            if (isNaN(coefficient) || coefficient === "NaN") { 
+                              coefficient = 1; 
+                            }
+                          } else if (parti.includes('√')) { 
+                            exposant = 0.5;
+                            coefficient = parseFloat(parti.replace('√', ''));
+                            if (isNaN(coefficient) || coefficient === "NaN") { 
+                              coefficient = 1; 
+                            }
+                          } else {
+                            exposant = 0;
+                          }
+                          coefficient *= signe;
+                          if (!coefficients[exposant]) {
+                            coefficients[exposant] = 0;
+                          }
+                          coefficients[exposant] += coefficient;
+                        }
+                        let simplifiedÉquationtermes = [];
+                        for (let exposant in coefficients) {
+                          if (coefficients[exposant]!== 0) {
+                            let terme = '';
+                            if (coefficients[exposant] > 0 && simplifiedÉquationtermes.length > 0) {
+                              terme += '';
+                            } else if (coefficients[exposant] < 0) {
+                              terme += '-';
+                            }
+                            if (Math.abs(coefficients[exposant])!== 1 || exposant === '0') {
+                              terme += Math.abs(coefficients[exposant]);
+                            }
+                            if (exposant > 0) {
+                              terme += 'x';
+                              if (exposant > 1) {
+                                terme += '^' + exposant;
+                              }
+                            }
+                            if (exposant === 0.5) { 
+                              terme = `\\sqrt{${Math.abs(coefficients[exposant])}}`;
+                            }
+                            simplifiedÉquationtermes.push(terme);
+                          }
+                        }
+                        simplifiedÉquation = simplifiedÉquationtermes.reverse().join("+").replace("+-", "-")
+                        console.log(simplifiedÉquation)
+                        let sulotion = [`${simplifiedÉquation.replace("NaNx^2", "x^2")}`]
+                        const strResultat = sulotion.map(s => `\\(x=${s}\\)`).join('<br>'); 
+
+                        const div = document.createElement('div');
+                        div.innerHTML = strResultat;
+
+                        const label = document.getElementById('etiquette-resultat');
+                        while (label.firstChild) {
+                          label.removeChild(label.firstChild);
+                        }
+                        label.appendChild(div);
+                        MathJax.Hub.Queue(["Typeset", MathJax.Hub, div]);
+                      }
+                    </script>
+                  </div>
+                  <div id="Derive">
+                    <div class="home-container05"
+                      ><button onclick="calculederivee()" type="button" name="button" value="Trouve derivee [#]" id="Trouve_derivee" class="featuresCard feature-card-feature-card"
+                        ><img src="https://cdn-icons-png.flaticon.com/512/65/65468.png" viewBox="0 0 1024 1024" class="featuresIcon invert-colors">
+                        <div class="feature-card-container"
+                          ><h3 class="feature-card-text heading3"
+                            ><span>Dérivée</span></h3
+                          ><span class="feature-card-text bodySmall"
+                            ><span
+                              >Résolvez rapidement la dérivée d'une fonction</span
+                            ></span
+                          ></div
+                        ></div>
+                    <script>
+                      function calculederivee() {
+                        const equation = obtenirEquation();
+                        const pieces = equation.split(/([+-])/);
+                        let coefficients = {};
+                        const correspondancesDegree = equation.match(/([a-zA-Z])(\^(\d+))?\b/g);
+                        let degreeMaximale = 0;
+                        for (let i = 0; i < correspondancesDegree.length; i++) {
+                          const couple = correspondancesDegree[i];
+                          const exposant = parseInt(couple[3] || 1);
+                          if (exposant > degreeMaximale) {
+                            degreeMaximale = exposant;
+                          }
+                        }
+                        for (let i = 0; i < pieces.length; i += 2) {
+                          const parti = pieces[i];
+                          if (parti === '+' || parti === '-') continue;
+                          let coefficient = parseFloat(parti);
+                          let signe = 1;
+                          if (pieces[i - 1] === '-') {
+                            signe = -1;
+                          }
+                          let exposant = 0;
+                          const correspondancesExpo = parti.match(/\^(\d+)/);
+                          if (correspondancesExpo) {
+                            if (parti.includes('x')) {
+                              exposant = parseInt(correspondancesExpo[1]);
+                              coefficient = parseFloat(parti.replace(correspondancesExpo[0], '').replace('x', ''));
+                              if (isNaN(coefficient) || coefficient === "NaN") {
+                                coefficient = 1;
+                              }
+                            } else {
+                              coefficient = Math.pow(parseFloat(parti.replace(correspondancesExpo[0], '')), parseInt(correspondancesExpo[1]));
+                              exposant = 0;
+                            }
+                          } else if (parti.includes('x')) {
+                            exposant = 1;
+                            coefficient = parseFloat(parti.replace('x', ''));
+                            if (isNaN(coefficient) || coefficient === "NaN") {
+                              coefficient = 1;
+                            }
+                          } else {
+                            exposant = 0;
+                          }
+                          coefficient *= signe;
+                          if (!coefficients[exposant]) {
+                            coefficients[exposant] = 0;
+                          }
+                          coefficients[exposant] += coefficient;
+                        }
+                        let deriveeCoefficients = {};
+                        let amt = parseInt(document.getElementById("var").value);
+                        if (isNaN(amt)) {
+                          amt = 1;
+                        }
+                        function derive(coefficients) {
+                          let newCoefficients = {};
+                          for (let exposant in coefficients) {
+                            let newexposant = parseInt(exposant) - 1;
+                            if (newexposant >= 0) {
+                              let newCoefficient = coefficients[exposant] * exposant;
+                              if (!newCoefficients[newexposant]) {
+                                newCoefficients[newexposant] = 0;
+                              }
+                              newCoefficients[newexposant] += newCoefficient;
+                            }
+                          }
+                          return newCoefficients;
+                        }
+                        let coefficientsCourantes = coefficients;
+                        for (let i = 0; i < amt; i++) {
+                          coefficientsCourantes = derive(coefficientsCourantes);
+                        }
+                        let deriveesimplifietermes = [];
+                        for (let exposant in coefficientsCourantes) {
+                          if (coefficientsCourantes[exposant] !== 0) {
+                            let terme = '';
+                            if (coefficientsCourantes[exposant] > 0 && deriveesimplifietermes.length > 0) {
+                              terme += '';
+                            } else if (coefficientsCourantes[exposant] < 0) {
+                              terme += '-';
+                            }
+                            if (Math.abs(coefficientsCourantes[exposant]) !== 1 || exposant === '0') {
+                              terme += Math.abs(coefficientsCourantes[exposant]);
+                            }
+                            if (exposant > 0) {
+                              terme += 'x';
+                              if (exposant > 1) {
+                                terme += '^' + exposant;
+                              }
+                            }
+                            deriveesimplifietermes.push(terme);
+                          }
+                        }
+                        let deriveesimplifie = deriveesimplifietermes.reverse().join("+").replace("+-", "-");
+                        let solution = [`${deriveesimplifie.replace("NaNx^2", "x^2")}`];
+                        const strResultat = solution.map(s => `\\(x=${s}\\)`).join('<br>'); 
+                        const div = document.createElement('div');
+                        div.innerHTML = strResultat;
+                        const label = document.getElementById('etiquette-resultat');
+                        while (label.firstChild) {
+                          label.removeChild(label.firstChild);
+                        }
+                        label.appendChild(div);
+                        MathJax.Hub.Queue(["Typeset", MathJax.Hub, div]);
+                      }
+                    </script>
+                  </div>
+                  <div id="Limites">
+                    <div class="home-container05">
+                      <button onclick="lim()" type="button" name="button" value="Limites [x=#]" id="Trouve_limits" class="featuresCard feature-card-feature-card">
+                        <img src="https://cdn-icons-png.flaticon.com/512/65/65468.png" viewBox="0 0 1024 1024" class="featuresIcon invert-colors">
+                        <div class="feature-card-container">
+                          <h3 class="feature-card-text heading3">
+                            <span>Limites</span>
+                          </h3>
+                          <span class="feature-card-text bodySmall">
+                            <span>Trouver les limites tendant vers une valeur</span>
+                          </span>
+                        </div>
+                      </button>
+                    </div>
+                    <script>
+                      function lim() {
+                        const equation = obtenirEquation();
+                        const x = document.getElementById("var").value || 1;
+                        let limite = calculerLimite(equation, x);
+                        afficherLimite(limite, x);
+                      }
+                      
+                      function afficherLimite(aAfficher, x) {
+                        const solution = String(aAfficher).split(",");
+                        const strResultat = solution.map(s => `\\(lim_{x->${x}} = ${s}\\)`).join('<br>'); 
+                        const div = document.createElement('div');
+                        div.innerHTML = strResultat;
+                        const label = document.getElementById('etiquette-resultat');
+                        while (label.firstChild) {
+                          label.removeChild(label.firstChild);
+                        }
+                        label.appendChild(div);
+                        MathJax.Hub.Queue(["Typeset", MathJax.Hub, div]);
+                      }
+                  
+                      function calculerLimite(func, a) {
+                          const epsilon = 0.0001; 
+                          a = parseInt(a);
+                          const fAGauche = evaluerPasAPas(func, a - epsilon).toFixed(2);
+                          const fADroite = evaluerPasAPas(func, a + epsilon).toFixed(2);
+                          
+                          if (Math.abs(fAGauche - fADroite) < epsilon) {
+                              return fAGauche; 
+                          } else {
+                              return "La limite n'existe pas";
+                          }
+                      }
+                    </script>
+                  </div>
+                  <div id="Critical Points">
+                    <div class="home-container05"
+                      ><button onclick="crit()" type="button" name="button" value="Trouve Crit Points" id="crit_points" class="featuresCard feature-card-feature-card">
+                        <img src="https://cdn-icons-png.flaticon.com/512/65/65468.png" viewBox="0 0 1024 1024" class="featuresIcon invert-colors">
+                        <div class="feature-card-container">
+                          <h3 class="feature-card-text heading3">
+                            <span>Points Critiques</span>
+                          </h3>
+                          <span class="feature-card-text bodySmall">
+                            <span>Trouve les points critiques d'une équation</span>
+                          </span>
+                        </div>
+                      </button>
+                    </div>
+                    <script src="https://cdn.jsdelivr.net/npm/fraction@1.0.0/dist/fraction.min.js"></script>
+                    <script src="https://cdn.jsdelivr.net/npm/complex@1.0.0/dist/complex.min.js"></script>
+                    <script src="https://cdn.jsdelivr.net/npm/polynomial@1.0.0/dist/polynomial.min.js"></script>
+                    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/9.4.4/math.min.js"></script>
+                    <script src="https://cdnjs.cloudflare.com/ajax/libs/numericjs/1.2.6/numeric.min.js"></script>
+                    <script>
+                      function crit() {
+                        const equation = obtenirEquation();
+                        let premierDerivee = calculeDe(equation);
+                        let deuxiemeDerivee = calculeDe(premierDerivee);
+                        let pointsCriticales = trouvePointsCriticales(premierDerivee);
+                        afficheCrit(pointsCriticales);
+                      }
+
+                      function afficheCrit(aAfficher) {
+                        const solution = String(aAfficher).split(",");
+                        
+                        const strResultat = solution.map(s => `\\(x = ${s}\\)`).join('<br>'); 
+
+                        const div = document.createElement('div');
+                        div.innerHTML = strResultat;
+
+                        const label = document.getElementById('etiquette-resultat');
+                        while (label.firstChild) {
+                          label.removeChild(label.firstChild);
+                        }
+                        label.appendChild(div);
+                        MathJax.Hub.Queue(["Typeset", MathJax.Hub, div]);
+                      }
+                    
+                      
+                    </script>
+                  </div>
+                  <div id="Points d'Inflexion">
+                    <div class="home-container05"
+                      ><button onclick="inflex()" type="button" name="button" value="Trouve Points d'Inflexion" id="Trouve_inflexion" class="featuresCard feature-card-feature-card">
+                        <img src="https://cdn-icons-png.flaticon.com/512/65/65468.png" viewBox="0 0 1024 1024" class="featuresIcon invert-colors">
+                        <div class="feature-card-container">
+                          <h3 class="feature-card-text heading3">
+                            <span>Points d'inflexion</span>
+                          </h3>
+                          <span class="feature-card-text bodySmall">
+                            <span>Trouver les points d'inflexion d'une équation</span>
+                          </span>
+                        </div>
+                      </button>
+                    </div>
+                    <script>
+                      function inflex() {
+                        const equation = obtenirEquation();
+                        let derivee = calculeD(equation);
+                        let deuxiemeDerivee = calculeD(derivee);
+                        let pointsInflexion = trouvePointsInflexion(deuxiemeDerivee);
+                        affichePointsInflexion(pointsInflexion);
+                      }
+
+                      function calculeD(equation) {
+                        const pieces = equation.split(/([+-])/);
+                        let coefficients = {}; 
+                        const correspondancesDegree = equation.match(/([a-zA-Z])(\^(\d+))?\b/g);
+                        let degreeMaximale = 0;
+                        for (let i = 0; i < correspondancesDegree.length; i++) {
+                          const couple = correspondancesDegree[i];
+                          const exposant = parseInt(couple[3] || 1);
+                          if (exposant > degreeMaximale) {
+                            degreeMaximale = exposant;
+                          }
+                        }
+
+                        for (let i = 0; i < pieces.length; i += 2) {
+                          const parti = pieces[i];
+                          if (parti === '+' || parti === '-') continue;
+                          let coefficient = parseFloat(parti);
+                          let signe = 1;
+                          if (pieces[i - 1] === '-') {
+                            signe = -1;
+                          }
+                          let exposant = 0;
+                          const correspondancesExpo = parti.match(/\^(\d+)/);
+                          if (correspondancesExpo) {
+                            if (parti.includes('x')) {
+                              exposant = parseInt(correspondancesExpo[1]);
+                              coefficient = parseFloat(parti.replace(correspondancesExpo[0], '').replace('x', ''));
+                              if (isNaN(coefficient) || coefficient === "NaN") {
+                                coefficient = 1;
+                              }
+                            } else {
+                              coefficient = Math.pow(parseFloat(parti.replace(correspondancesExpo[0], '')), parseInt(correspondancesExpo[1]));
+                              exposant = 0;
+                            }
+                          } else if (parti.includes('x')) {
+                            exposant = 1;
+                            coefficient = parseFloat(parti.replace('x', ''));
+                            if (isNaN(coefficient) || coefficient === "NaN") {
+                              coefficient = 1;
+                            }
+                          } else {
+                            exposant = 0;
+                          }
+                          coefficient *= signe;
+                          if (!coefficients[exposant]) {
+                            coefficients[exposant] = 0;
+                          }
+                          coefficients[exposant] += coefficient;
+                        }
+                        let deriveeCoefficients = {};
+                        let amt = parseInt(document.getElementById("var").value);
+                        if (isNaN(amt)) {
+                          amt = 1;
+                        }
+                        
+                        let coefficientsCourantes = coefficients;
+                        for (let i = 0; i < amt; i++) {
+                          coefficientsCourantes = derivee(coefficientsCourantes);
+                        }
+
+                        let deriveesimplifietermes = [];
+                        for (let exposant in coefficientsCourantes) {
+                          if (coefficientsCourantes[exposant] !== 0) {
+                            let terme = '';
+                            if (coefficientsCourantes[exposant] > 0 && deriveesimplifietermes.length > 0) {
+                              terme += '';
+                            } else if (coefficientsCourantes[exposant] < 0) {
+                              terme += '-';
+                            }
+                            if (Math.abs(coefficientsCourantes[exposant]) !== 1 || exposant === '0') {
+                              terme += Math.abs(coefficientsCourantes[exposant]);
+                            }
+                            if (exposant > 0) {
+                              terme += 'x';
+                              if (exposant > 1) {
+                                terme += '^' + exposant;
+                              }
+                            }
+                            deriveesimplifietermes.push(terme);
+                          }
+                        }
+                        let deriveesimplifie = deriveesimplifietermes.reverse().join("+").replace("+-", "-");
+                        return deriveesimplifie;
+                      }
+
+                      function derivee(coefficients) {
+                        let newCoefficients = {};
+                        for (let exposant in coefficients) {
+                          let newexposant = parseInt(exposant) - 1;
+                          if (newexposant >= 0) {
+                            let newCoefficient = coefficients[exposant] * exposant;
+                            if (!newCoefficients[newexposant]) {
+                              newCoefficients[newexposant] = 0;
+                            }
+                            newCoefficients[newexposant] += newCoefficient;
+                          }
+                        }
+                        return newCoefficients;
+                      }
+                      
+                      function trouvePointsInflexion(derivee) {
+                        const equation = obtenirEquation();
+                        const pointsInflexion = [];
+                        const epsilon = 0.0001;
+                        
+                        for (let x = -10; x <= 10; x++) {
+                            let x1 = x - 1;
+                            let x2 = x + 1;
+                            
+                            let y1 = evalueÉquation(derivee, x1);
+                            let y2 = evalueÉquation(derivee, x2);
+                            if (y1 < 0 && y2 > 0) {
+                              let pointInflexion = [x, evalinflex(equation, x)]
+                              pointsInflexion.push(pointInflexion);
+                            }
+                        }
+
+                        return pointsInflexion;
+                      }
+
+                      function evalueÉquation(equation, x) {
+                        x = String(x);
+                        equation = equation.replace(/(?<!\d)\*/g, '');
+                        const pieces = equation.match(/([+\-*/]?[^+\-*/]+)/g);
+                        let pars = [];
+                        for (let i = 0; i < pieces.length; i++) {
+                            let parti = pieces[i].replace(/x/g, `*${x}`);
+                            const pete = eval(parti);
+                            pars.push(pete);
+                        }
+                        let resultat = pars.join("");
+                        resultat = eval(resultat);
+                        return resultat;
+                      }
+
+                      function evalinflex(equation, x) {
+                        x = String(x);
+                        equation = equation.replace(/(?<![\d.])x/g, `(${x})`);
+                        let couplees = equation.match(/(\d+(?:\.\d+)?)x/g);
+                        if (couplees) {
+                            couplees.forEach(couple => {
+                                equation = equation.replace(couple, `${couple.replace('x', '')}*(${x})`);
+                            });
+                        }
+
+                        // Evalue les exposants de (nombre)^(nombre) et nombre^(nombre)
+                        equation = equation.replace(/(\(?-?\d+(\.\d+)?\)?)\^(-?\d+(\.\d+)?)/g, (couple, base, _, exposant) => {
+                            let evaluated = Math.pow(eval(base), eval(exposant));
+                            return evaluated;
+                        });
+
+                        // Evalue les multiplications de {signe?(nombre)}*{signe?nombre}
+                        equation = equation.replace(/\(?([+-]?\d+(\.\d+)?|\(?[+-]?\d+(\.\d+)?\)?)\)?\*\(?([+-]?\d+(\.\d+)?|[+-]?\d+(\.\d+)?)\)?/g, (couple, p1, p2, p3, p4) => {
+                            let evaluated = String(eval(`${eval(p1)}*${eval(p4)}`)).replace(/(?<![+\-\d.^])\d+(?:\.\d+)?/g, (couple, p1) => {
+                              return `+${couple}`;
+                            });
+                            return evaluated;
+                        });
+
+                        let resultat;
+                        try {
+                            resultat = eval(equation);
+                        } catch (e) {
+                            console.error("Erreur lors du calculation: ", e);
+                            return null;
+                        }
+                        return resultat;
+                      }
+
+                      function affichePointsInflexion(pointsInflexion) {
+                        let solution = [`(${pointsInflexion})`];
+                        let strResultat = "";
+                        if (solution != "()") {
+                          strResultat = solution.map(s => `\\(x=${s}\\)`).join('<br>');
+                        } else {
+                          strResultat = "Il y'en a aucun point d'inflexion.";
+                        }
+                        const div = document.createElement('div');
+                        div.innerHTML = strResultat;
+
+                        const label = document.getElementById('etiquette-resultat');
+                        while (label.firstChild) {
+                          label.removeChild(label.firstChild);
+                        }
+                        label.appendChild(div);
+                        MathJax.Hub.Queue(["Typeset", MathJax.Hub, div]);
+                      }
+                    
+                      
+                    </script>
+                  </div>
+                  <div id="Maximum/Minimum">
+                    <div class="home-container05"
+                      ><button onclick="trouve()" type="button" name="button" value="Trouve Max/Min" id="Trouve_max_min" class="featuresCard feature-card-feature-card"
+                        ><img src="https://cdn-icons-png.flaticon.com/512/65/65468.png" viewBox="0 0 1024 1024" class="featuresIcon invert-colors">
+                        <div class="feature-card-container"
+                          ><h3 class="feature-card-text heading3"
+                            ><span>Maximum/Minimum</span></h3
+                          ><span class="feature-card-text bodySmall"
+                            ><span
+                              >Trouvez les valeurs minimales et maximales d'une équation.</span
+                            ></span
+                          ></div
+                        ></div>
+                    <script src="https://cdn.jsdelivr.net/npm/fraction@1.0.0/dist/fraction.min.js"></script>
+                    <script src="https://cdn.jsdelivr.net/npm/complex@1.0.0/dist/complex.min.js"></script>
+                    <script src="https://cdn.jsdelivr.net/npm/polynomial@1.0.0/dist/polynomial.min.js"></script>
+                    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/9.4.4/math.min.js"></script>
+                    <script src="https://cdnjs.cloudflare.com/ajax/libs/numericjs/1.2.6/numeric.min.js"></script>
+                    <script>
+                      function trouve() {
+                        const equation = obtenirEquation();
+                        let premierDerivee = calculeDe(equation);
+                        let deuxiemeDerivee = calculeDe(premierDerivee);
+                        let pointsCriticales = trouvePointsCriticales(premierDerivee);
+                        let maxMin = classifiePointsCriticales(pointsCriticales, deuxiemeDerivee, equation);
+                        afficheMaximumMinimum(maxMin);
+                      }
+                      
+                      function extraireCoefficients(equation) {
+                        equation = equation.replace(/(\d)([a-zA-Z])/g, '$1*$2');
+                        const termes = equation.match(/([+-]?\d*\.?\d*\*?[a-zA-Z]?\^?\d*)/g).filter(Boolean);
+                        let maxexposant = 0;
+                        termes.forEach(terme => {
+                          const couple = terme.match(/[a-zA-Z]\^(\d+)/);
+                          if (couple) {
+                            const exposant = parseInt(couple[1]);
+                            if (exposant > maxexposant) {
+                              maxexposant = exposant;
+                            }
+                          } else if (terme.includes('x')) {
+                            if (maxexposant < 1) {
+                              maxexposant = 1;
+                            }
+                          }
+                        });
+
+                        let coefficients = new Array(maxexposant + 1).fill(0);
+
+                        termes.forEach(terme => {
+                          let coefficient = 1;
+                          let variable = '';
+                          let exposant = 0;
+
+                          let signe = 1;
+                          if (terme[0] === '-') {
+                            signe = -1;
+                            terme = terme.slice(1);
+                          } else if (terme[0] === '+') {
+                            terme = terme.slice(1);
+                          }
+
+                          const pieces = terme.split('*');
+                          if (pieces.length === 2) {
+                            coefficient = parseFloat(pieces[0]);
+                            variable = pieces[1];
+                          } else {
+                            if (/[a-zA-Z]/.test(pieces[0])) {
+                              variable = pieces[0];
+                            } else {
+                              coefficient = parseFloat(pieces[0]);
+                            }
+                          }
+                          if (variable) {
+                            const correspondancesExpo = variable.match(/([a-zA-Z])\^(\d+)/);
+                            if (correspondancesExpo) {
+                              variable = correspondancesExpo[1];
+                              exposant = parseInt(correspondancesExpo[2]);
+                            } else if (/[a-zA-Z]/.test(variable)) {
+                              exposant = 1;
+                            }
+                          }
+                          coefficient = (isNaN(coefficient) ? 1 : coefficient) * signe;
+                          coefficients[exposant] += coefficient;
+                        });
+
+                        return coefficients;
+                      }
+
+                      function calculeDe(equation) {
+                        const pieces = equation.split(/([+-])/);
+                        let coefficients = extraireCoefficients(equation);
+                        const correspondancesDegree = equation.match(/([a-zA-Z])(\^(\d+))?\b/g);
+                        let degreeMaximale = 0;
+                        for (let i = 0; i < correspondancesDegree.length; i++) {
+                          const couple = correspondancesDegree[i];
+                          const exposant = parseInt(couple[2] || 1);
+                          if (exposant > degreeMaximale) {
+                            degreeMaximale = exposant;
+                          }
+                        }
+
+                        let deriveeCoefficients = {};
+                        let amt = parseInt(document.getElementById("var").value);
+                        if (isNaN(amt)) {
+                          amt = 1;
+                        }
+
+                        
+                        let coefficientsCourantes = coefficients;
+                        for (let i = 0; i < amt; i++) {
+                          coefficientsCourantes = derivee(coefficientsCourantes);
+                        }
+
+                        let deriveesimplifietermes = [];
+                        for (let exposant in coefficientsCourantes) {
+                          if (coefficientsCourantes[exposant] !== 0) {
+                            let terme = '';
+                            if (coefficientsCourantes[exposant] > 0 && deriveesimplifietermes.length > 0) {
+                              terme += '';
+                            } else if (coefficientsCourantes[exposant] < 0) {
+                              terme += '-';
+                            }
+                            if (Math.abs(coefficientsCourantes[exposant]) !== 1 || exposant === '0') {
+                              terme += Math.abs(coefficientsCourantes[exposant]);
+                            }
+                            if (exposant > 0) {
+                              terme += 'x';
+                              if (exposant > 1) {
+                                terme += '^' + exposant;
+                              }
+                            }
+                            deriveesimplifietermes.push(terme);
+                          }
+                        }
+                        let deriveesimplifie = deriveesimplifietermes.reverse().join("+").replace("+-", "-");
+                        return deriveesimplifie;
+                      }
+                      
+                      function isoleepourX(equation) {
+                        const pieces = equation.split(/([+-])/);
+                        let coefficients = {0: 0, 1: 0, 2: 0, 3: 0}; 
+                        const correspondancesDegree = equation.match(/([a-zA-Z])(\^(\d+))?\b/g);
+                        let degreeMaximale = 0;
+                        for (let i = 0; i < correspondancesDegree.length; i++) {
+                          const couple = correspondancesDegree[i];
+                          const exposant = parseInt(couple[3] || 1);
+                          if (exposant > degreeMaximale) {
+                            degreeMaximale = exposant;
+                          }
+                        }
+                        let temp = "";
+                        for (let i = 0; i < pieces.length; i++) {
+                          const parti = pieces[i];
+                          if (parti.includes('x')) {
+                            const correspondancesExpo = parti.match(/\^(\d+)/);
+                            let coefficient = parti.replace('x', '');
+                            let exposant = 1;
+                            if (correspondancesExpo) {
+                              exposant = parseInt(correspondancesExpo[1]);
+                              coefficient = coefficient.replace(correspondancesExpo[0], '');
+                            }
+                            if (i > 0 && pieces[i - 1] === '-') {
+                              coefficient = '-' + coefficient;
+                            }
+                            if (coefficient === '') {
+                              coefficient = 1;
+                            } else if (coefficient === '-') {
+                              coefficient = -1;
+                            } else if (coefficient === '+') {
+                              coefficient = 1;
+                            } else if (coefficient.startsWith('-')) {
+                              coefficient = parseFloat(coefficient);
+                            } else {
+                              coefficient = parseFloat(coefficient);
+                            }
+                            temp = `parti: ${parti}, Coefficient: ${coefficient}, exposant: ${exposant}`
+                            coefficients[exposant] = coefficient;
+                            if (exposant > degreeMaximale) {
+                              degreeMaximale = exposant
+                            }
+                          } else {
+                            let constant = '';
+                            if (i > 0 && pieces[i - 1] === '-') {
+                              constant = '-' + parti;
+                            } else if (i > 0 && pieces[i - 1] === '+') {
+                              constant = parti;
+                            } else {
+                              constant = parti;
+                            }
+                            let coefficient = parseFloat(constant);
+                            if (isNaN(coefficient)) {
+                              coefficient = 0;
+                            }
+                            coefficients[0] = coefficient;
+                          }
+                        }
+                        let solutions;
+                        if (degreeMaximale === 1) {
+                          solutions = [-coefficients[0] / coefficients[1]];
+                        } else if (degreeMaximale === 2) {
+                          const a = coefficients[2];
+                          const b = coefficients[1];
+                          const c = coefficients[0];
+                          const discriminant = b * b - 4 * a * c;
+                          if (discriminant >= 0) {
+                            solutions = [(-b + Math.sqrt(discriminant)) / (2 * a), (-b - Math.sqrt(discriminant)) / (2 * a)];
+                          } else {
+                            const partiimaginaire = Math.sqrt(-discriminant) / (2 * a);
+                            const vraiparti = -b / (2 * a);
+                            solutions = [new Complexe(vraiparti, partiimaginaire), new Complexe(vraiparti, -partiimaginaire)];
+                          }
+                        } else if (degreeMaximale === 3) {
+                          const a = coefficients[3] || 0;
+                          const b = coefficients[2] || 0;
+                          const c = coefficients[1] || 0;
+                          const d = coefficients[0] || 0;
+                          const p = (3 * a * c - b * b) / (3 * a * a);
+                          const q = (2 * b * b * b - 9 * a * b * c + 27 * a * a * d) / (27 * a * a * a);
+                          const discriminant = (q / 2) * (q / 2) + (p / 3) * (p / 3) * (p / 3);
+                          if (discriminant > 0) {
+                            const u = Math.cbrt(-q / 2 + Math.sqrt(discriminant));
+                            const v = -Math.cbrt(-q / 2 - Math.sqrt(discriminant));
+                            solutions = [new Complexe(u + v, 0), new Complexe(-(u + v) / 2, Math.sqrt(3) / 2 * (u - v)), new Complexe(-(u + v) / 2, -Math.sqrt(3) / 2 * (u - v))];
+                          } else if (discriminant === 0) {
+                            const u = Math.cbrt(-q / 2);
+                            solutions = [new Complexe(3 * u - b / (3 * a), 0)];
+                          } else {
+                            const r = Math.sqrt(-(p / 3));
+                            const phi = Math.acos(-q / (2 * r * r * r));
+                            solutions = [new Complexe(2 * r * Math.cos(phi / 3) - b / (3 * a), 0), new Complexe(2 * r * Math.cos((phi + 2 * Math.PI) / 3) - b / (3 * a), Math.sqrt(3) * r * Math.sin((phi + 2 * Math.PI) / 3)), new Complexe(2 * r * Math.cos((phi + 4 * Math.PI) / 3) - b / (3 * a), Math.sqrt(3) * r * Math.sin((phi + 4 * Math.PI) / 3))];
+                          }
+                        } else {
+                          solutions = ["Ne peut pas resoudre un equation du degree " + degreeMaximale];
+                        }
+                        return solutions;
+                      }
+                      
+
+                      function trouvePointsCriticales(equation) {
+                        const derivee = calculeD(equation);
+                        const coefficients = extraireCoefficients(derivee);
+                        const pointsCriticales = isoleepourX(equation);
+                        return pointsCriticales;
+                      }
+
+                      function classifiePointsCriticales(points, deuxiemeDerivee, equation) {
+                        const resultat = [];
+                        for (let i = 0; i < points.length; i++) {
+                          let x = parseFloat(points[i]);
+                          let deuxiemeDeriveeV = evalueÉquatione(deuxiemeDerivee, x);
+                          let equaeval = evalueÉquatione(equation, x)
+                          
+                          if (deuxiemeDeriveeV > 0 && !isNaN(equaeval)) {
+                            resultat.push({ point: x, type: 'Minimum', value: equaeval });
+                          } else if (deuxiemeDeriveeV < 0 && !isNaN(equaeval)) {
+                            resultat.push({ point: x, type: 'Maximum', value: equaeval });
+                          } else if (deuxiemeDeriveeV == 0 && !isNaN(equaeval)) {
+                            resultat.push({ point: x, type: 'Point Absolue', value: equaeval });
+                          }
+                        }
+                        return resultat;
+                        
+                      }
+                      
+                      function evalueÉquatione(equation, x) {
+                        x = String(x);
+
+                        equation = equation.replace(/(?<![\d.])x/g, `(${x})`);
+                        let couplees = equation.match(/(\d+(?:\.\d+)?)x/g);
+                        if (couplees) {
+                            couplees.forEach(couple => {
+                                equation = equation.replace(couple, `${couple.replace('x', '')}*(${x})`);
+                            });
+                        }
+
+                        // Evalue exposants de (nombre)^(nombre) et nombre^(nombre)
+                        equation = equation.replace(/(\(?-?\d+(\.\d+)?\)?)\^(-?\d+(\.\d+)?)/g, (couple, base, _, exposant) => {
+                            let evaluated = Math.pow(eval(base), eval(exposant));
+                            return evaluated;
+                        });
+
+                        // Evalue les multiplications sous la forme de {signe?(nombre)}*{signe?nombre}
+                        equation = equation.replace(/\(?([+-]?\d+(\.\d+)?|\(?[+-]?\d+(\.\d+)?\)?)\)?\*\(?([+-]?\d+(\.\d+)?|[+-]?\d+(\.\d+)?)\)?/g, (couple, p1, p2, p3, p4) => {
+                            let evaluated = String(eval(`${eval(p1)}*${eval(p4)}`)).replace(/(?<![+\-\d.^])\d+(?:\.\d+)?/g, (couple, p1) => {
+                              return `+${couple}`;
+                            });
+                            return evaluated;
+                        });
+
+                        let resultat;
+                        try {
+                            resultat = eval(equation);
+                        } catch (e) {
+                            console.error("Erreur en evaluant l'equation:", e);
+                            return null;
+                        }
+                        return resultat;
+                      }
+
+
+                      function enleveDupe(arr, comparer) {
+                          return arr.filter((item, index) => {
+                              const premierIndexe = arr.findIndex((other) => comparer(item, other) === 0);
+                              return index === premierIndexe;
+                          });
+                      }
+
+                      
+                      function afficheMaximumMinimum(points) {
+                        points = enleveDupe(points, (a, b) => {
+                          return a.value === b.value && a.point === b.point ? 0 : 1;
+                        });
+                        const strResultat = points
+                          .filter(p => p.value !== null)
+                          .map(p => `Le point \\(${p.point}, ${p.value}\\) est un ${p.type}`)
+                          .join('<br>');
+                      
+                        const div = document.createElement('div');
+                        div.innerHTML = strResultat;
+                      
+                        const label = document.getElementById('etiquette-resultat');
+                        while (label.firstChild) {
+                          label.removeChild(label.firstChild);
+                        }
+                        label.appendChild(div);
+                        MathJax.Hub.Queue(["Typeset", MathJax.Hub, div]);
+                      }
+                    </script>
+                  </div>
+                  <br>
+                  
+
+            
+    
+        </div>
+        <div class="home-separator">
+          <div class="home-container13">
+            <div class="home-container082">
+                <div class="home-container1350-wrapper">
+                  <div class="jaxmath2">
+                    <div>
+                      <br>
+                      <label >Résultat: </label>
+                      <br>
+                      <label id="etiquette-resultat" for="resultat" class="home-textinput12"></label>
+                    </div>
+                  </div>
+              </div>
+              <div class="home-container13502-wrapper">
+                
+                <div class="jaxmath">
+                  <div>
+                    <label >Votre équation: </label>
+                    <label id="jaxmath" class="home-textinput12"></label>
+                    <br>
+                  </div>
+                </div>  
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        
+        
+      
+    <script
+      data-section-id="navbar"
+      src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
+    ></script>
+    <script>
+      const buttons = document.querySelectorAll('button[type="button"][name="button"]');
+      buttons.forEach((button) => {
+        button.addEventListener('click', (e) => {
+          e.preventDefault();
+          console.log(`Boutton "${button.value}" pousse.`);
+          const equation = document.querySelector('#equation').value;
+          const varInput = document.querySelector('#var').value;
+          const buttonValue = button.value;
+        });
+      });
+    </script>
+  <div class="footere">
+    <footer>
+      <p class="footerContainer">© 2024 HTD, All Rights Reserved.</p>
+    </footer>
+  </div>
+    
+</body>
+
+
+</html>
+
